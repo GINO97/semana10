@@ -1,3 +1,4 @@
 https://drive.google.com/file/d/1VwjfP3iKmpatTjuOvB4-N-V5snHSObZF/view
  wget https://raw.githubusercontent.com/pic-es/BigDataMOOC/master/scripts/setup_pyspark.sh
  . setup_pyspark.sh
+pyspark --jars /home/cloudera/spark-csv_2.10-1.5.0.jar,/home/cloudera/commons-csv-1.4.jar
